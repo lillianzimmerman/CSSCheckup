@@ -19,6 +19,8 @@ nav, div {
     width: 15vw;
     text-align: center;
     border: 5px solid rgb(91, 51, 51);
+    min-width: 225px;
+    min-height: 300px;
 }
 
 #icon {
@@ -70,6 +72,8 @@ h4 {
     width: 40vw;
     height: 50vw;
     border: 5px solid rgb(91, 51, 51);
+    min-width: 610px;
+    min-height: 762.5px;
 }
 
 h3 {
@@ -127,4 +131,5 @@ p {
 
 #blogPost2 {
     height: 46vw;
+    min-height: 701.5px;
 }
