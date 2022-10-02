@@ -1,6 +1,7 @@
 body {
-    background-image: url(./assets/catBackground-1.jpg);
+    background-image: url(./assets/catBackground-3.jpg);
     background-position: fixed; 
+    background-attachment: fixed;
     font-family: 'Roboto Mono', monospace;
     color: #DFD0CC;
     background-repeat: repeat;
@@ -67,7 +68,8 @@ h4 {
 .blogPost {
     margin: auto;
     width: 40vw;
-    height: 40vw;
+    height: 50vw;
+    border: 5px solid rgb(91, 51, 51);
 }
 
 h3 {
@@ -75,4 +77,54 @@ h3 {
     font-size: 25px;
     font-weight: 300;
     text-align: center;
+}
+
+.catpic {
+    text-align: center;
+    width: 25rem;
+    height: 25rem;
+    margin-right: 6.5rem;
+    margin-left: 6.5rem;
+    border: 5px solid rgb(91, 51, 51);
+    border-radius: 1em;
+}
+
+p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: .5rem;
+    margin-bottom: 0px;
+}
+
+.writeComment {
+    margin-left: 2rem;
+    height: 5%;
+    width: 70%;
+    margin-top: 0px;
+    background-color: rgb(91, 51, 51);
+    border: none;
+    font-family: 'Roboto Mono', monospace;
+    color: #DFD0CC;
+    border-radius: .5em;
+}
+
+.postComment {
+    margin-right: 2rem;
+    height: 5%;
+    width: 15%;
+    font-family: 'Roboto Mono', monospace;
+    border-radius: .5em;
+    border: none;
+    color: rgb(91, 51, 51);
+    background-color: #DFD0CC;
+}
+
+.postComment:hover {
+    cursor: pointer;
+    background-color: #a58383;
+    color: rgb(91, 51, 51);
+}
+
+#blogPost2 {
+    height: 46vw;
 }
